@@ -14,7 +14,7 @@ export const login = async (email, password) => {
     // Extract the token from the response
     const token = response.data.token;
 
-    // Save the token in local storage or a cookie
+    // Save the token in local storage 
     localStorage.setItem('jwtToken', token);
     //console.log("token"+ token);
 

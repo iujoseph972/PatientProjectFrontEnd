@@ -15,7 +15,7 @@ function LoginForm() {
     try {
       const { email, password } = values;
 
-      // Make a login request to your backend
+      // Make a login request to my backend
       const success = await login(email, password);
 
       if (success) {
